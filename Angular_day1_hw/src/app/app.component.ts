@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Angular_day1_hw';
+
+  colors: string[] = ["Blue","Black","Red","Green"];
+
+  
+
+
 }

@@ -6,5 +6,17 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
     
+}
+
+
+.secondary-container {
+    height: 80vh;
+    width: 80vw;
+    margin: auto;
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   grid-template-rows: 1fr 1fr;
+   
 }
