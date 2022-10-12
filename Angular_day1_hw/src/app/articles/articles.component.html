@@ -1,4 +1,7 @@
-<div class="article-container">
+
+
+<div class="secondary-container">
+<div class="article-container" *ngFor="let color of colors; let i = index" >
 <h2>This is an article title</h2>
 <p>
   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
@@ -9,5 +12,6 @@
   in culpa qui officia deserunt mollit anim id est laborum.
 </p>
 
-<button>Set </button>
+<button id="{{i}}" [style.background-color]="color">Set {{color}}</button>
+  </div>
 </div>
