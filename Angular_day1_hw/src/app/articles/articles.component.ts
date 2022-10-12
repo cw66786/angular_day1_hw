@@ -7,6 +7,8 @@ import { Component, OnInit, Input} from '@angular/core';
 })
 export class ArticlesComponent implements OnInit {
  @Input() colors!: string[];
+ @Input() colorChange!: (arg: string) => void;
+
   constructor() { }
 
   ngOnInit(): void {

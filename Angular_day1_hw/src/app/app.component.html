@@ -1,6 +1,6 @@
 <div class="main">
-  <h1>This is the Main Title from the app.component</h1>
+  <h1 class="main-title" [ngStyle]="{'color':(this.titleColor === '')? 'black': this.titleColor}">This is the Main Title from the app.component</h1>
 </div>
 
-  <app-articles [colors]=colors ></app-articles>
+  <app-articles [colors]=colors [colorChange]="colorChange"></app-articles>
 
