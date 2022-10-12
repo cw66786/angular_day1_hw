@@ -1,41 +1,44 @@
-
 .secondary-container {
     height: 80vh;
     width: 80vw;
     margin: auto;
-   display: grid;
-   grid-template-columns: 1fr 1fr;
-   grid-template-rows: 1fr 1fr;
-   
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+
 }
 
 .article-container {
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     width: 95%;
     height: 95%;
     margin: auto;
-    
+
     border-radius: 15px;
-    border: 2px solid black;
+
 }
 
 .article-container h2,
 .article-container p {
-    
+
     margin: 5px 20px;
 }
 
-button{
+button {
     color: white;
     border-radius: 15px;
     width: 15%;
-    height: 2rem;
+    height: 4rem;
     font-weight: bold;
-    
+    margin-left: 10px;
+    margin-bottom: 10px;
+
+
+    align-self: flex-start;
+
+
+
 }
-
-
-
